@@ -1,0 +1,26 @@
+.header {
+    color: #ffc107;
+    text-align: center;
+    padding: 0.5em;
+    text-transform: uppercase;
+    margin: 0.5em;
+    /*border: 2px solid red;*/
+}
+.projectsWrapper {
+    min-height: 750px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.projects div {
+    color: white;
+}
+.projects {
+    display: flex;
+    min-height: 300px;
+    flex-direction: column;
+    border: 2px solid red;
+    justify-content: space-between;
+    margin: 1em;
+}
