@@ -1,0 +1,55 @@
+.step {
+    width: 300px;
+    margin: 20px;
+    text-align: left;
+    display: flex;
+
+}
+
+.year {
+    border: 2px solid;
+    width: 100px;
+    border-radius: 10px;
+    display: flex;
+    padding: 0 10px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 10px;
+    color: white;
+    margin: 0 5px;
+    opacity: 70%;
+
+}
+
+.text {
+    border-left: 1px solid white;
+}
+
+.title {
+    width: 190px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 10px 5px;
+}
+
+.usefulInfo {
+    width: 200px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 14px;
+    margin: 0 5px;
+    opacity: 70%;
+
+}
+
+.btn {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: #ffc107;
+    margin: 5px;
+    cursor: default;
+}
+

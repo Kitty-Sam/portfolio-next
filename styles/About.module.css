@@ -1,0 +1,65 @@
+.header {
+    color: #ffc107;
+    text-align: center;
+    padding: 0.5em;
+    text-transform: uppercase;
+    margin: 0.5em;
+}
+
+.personalInfoHeader {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    margin-left: 1em;
+    /*border: 2px solid red;*/
+    padding: 1em;
+}
+
+.leftBlock span, .leftBlock p, .rightBlock p {
+    color: white;
+    padding: 0.5em;
+}
+
+
+.btn {
+    font-family: 'Poppins', sans-serif;
+    margin-top: 2em;
+    padding: 5px 10px;
+    background-color: black;
+    border-color: #ffc107;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+
+.personalInfo {
+    padding: 1em;
+}
+
+.wrapper {
+    display: flex;
+    margin: 1em;
+
+}
+
+.rightBlock {
+    margin-left: 1em;
+}
+
+.diagramBlock {
+    display: flex;
+    min-width: 800px;
+    justify-content: space-around;
+    /*border: 2px solid red;*/
+
+}
+
+.experience, .education {
+    display: flex;
+    flex-direction: column;
+    color: white;
+  }
+.personalInfoBlockFour {
+    display: flex;
+}
