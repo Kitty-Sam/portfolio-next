@@ -24,7 +24,6 @@ const Portfolio = () => {
               </div>
             </div>
 
-
         </MainLayout>
     );
 };
