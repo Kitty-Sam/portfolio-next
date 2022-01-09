@@ -21,8 +21,6 @@ const MainLayout = ({children, title, keywords = "portfolio"}) => {
                 <button onClick={()=>{Router.push(Routes.PORTFOLIO)}} className={styles.img}><Image src='/bag.png' alt={'portfolio'} width='10px' height='10px'/></button>
                 <button onClick={()=>{Router.push(Routes.CONTACTS)}} className={styles.img}><Image src='/message.png' alt={'contacts'} width='10px' height='10px'/></button>
             </nav>
-
-
         </div>
     );
 };
