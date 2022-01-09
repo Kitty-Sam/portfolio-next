@@ -8,7 +8,6 @@ Chart.register(ArcElement);
 const Diagram = (props) => {
     return (
         <div className={styles.diagram}>
-
             < Doughnut  data={
                 {
                     labels:
