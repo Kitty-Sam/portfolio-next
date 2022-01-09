@@ -7,11 +7,7 @@ const titleSkill = ["HTML", "REDUX", "REACT", "CSS", "JS"];
 const data = {"HTML": [60, 40], "REDUX": [50, 50], "REACT": [70, 30], "CSS": [50, 50], "JS": [40, 60]};
 
 
-
 const About = () => {
-    const clickHandle = () => {
-        document.location.href = 'https://kitty-sam.github.io/Portfolio';
-    }
 
     return (
         <>
@@ -25,9 +21,10 @@ const About = () => {
                             <p> First name: <strong>Kate</strong></p>
                             <p> Last name: <strong>Samuta</strong></p>
                             <p> Age: <strong>28</strong> years old </p>
-                            {/*<Link href="https://kitty-sam.github.io/Portfolio/"  passHref={true}>*/}
-                                <button className={styles.btn} onClick={clickHandle}>open CV</button>
-                          {/*  </Link>*/}
+                            <button className={styles.btn}><a style={{textDecoration: "none", color: "white"}} href="/samuta-kitty.pdf"
+                                                              target="_blank"
+                                                              rel="noopener noreferrer"
+                                                              download>download CV</a></button>
                         </div>
                         <div className={styles.rightBlock}>
                             <p> Address: <strong>Minsk</strong></p>
@@ -40,11 +37,16 @@ const About = () => {
                     <h2 className={styles.header}> My skills </h2>
                     <div className={styles.diagramBlock}>
 
-                        <div style={{color:"white",textAlign: 'center'}}>HTML : 60<Diagram titleSkill={titleSkill[0]} data={data.HTML}/></div>
-                        <div style={{color:"white",textAlign: 'center'}}>CSS : 50<Diagram titleSkill={titleSkill[1]} data={data.CSS}/></div>
-                        <div style={{color:"white",textAlign: 'center'}}>REACT : 70<Diagram titleSkill={titleSkill[2]} data={data.REACT}/></div>
-                        <div style={{color:"white",textAlign: 'center'}}>REDUX : 50<Diagram titleSkill={titleSkill[3]} data={data.REDUX}/></div>
-                        <div style={{color:"white",textAlign: 'center'}}>JS : 40<Diagram titleSkill={titleSkill[4]} data={data.JS}/></div>
+                        <div style={{color: "white", textAlign: 'center'}}>HTML : 60<Diagram titleSkill={titleSkill[0]}
+                                                                                             data={data.HTML}/></div>
+                        <div style={{color: "white", textAlign: 'center'}}>CSS : 50<Diagram titleSkill={titleSkill[1]}
+                                                                                            data={data.CSS}/></div>
+                        <div style={{color: "white", textAlign: 'center'}}>REACT : 70<Diagram titleSkill={titleSkill[2]}
+                                                                                              data={data.REACT}/></div>
+                        <div style={{color: "white", textAlign: 'center'}}>REDUX : 50<Diagram titleSkill={titleSkill[3]}
+                                                                                              data={data.REDUX}/></div>
+                        <div style={{color: "white", textAlign: 'center'}}>JS : 40<Diagram titleSkill={titleSkill[4]}
+                                                                                           data={data.JS}/></div>
 
                     </div>
 

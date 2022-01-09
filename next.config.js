@@ -1,9 +1,15 @@
 module.exports = {
-    images: {
-        disableStaticImages: true
+    reactStrictMode: true,
+    webpack: (config) => {
+        config.module.rules.push({
+            test: /\.pdf$/,
+            use: {
+                loader: 'file-loader',
+                options: {
+                    name: '[path][name].[ext]',
+                },
+            },
+        });
+        return config;
     }
 }
-
-/*
-const withImages = require('next-images')
-module.exports = withImages()*/
