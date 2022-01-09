@@ -41,6 +41,18 @@ const Contacts = () => {
                                 +37529 261 07 29
                             </div>
 
+                            <div className={styles.icon}>
+                                <a target="_blank" href={"https://www.linkedin.com/in/екатерина-самута"}>
+                                    <div className={styles.linkedIn}><Image
+                                        src={'/link.png'} alt={"linkedIn"} width='25px' height='25px'/></div>
+                                </a>
+                                <a target="_blank" href={"https://vk.com/samuta93"}>
+                                    <div className={styles.vk}><Image
+                                        src={'/vk.png'} alt={"vk"} width='25px' height='25px'/></div>
+                                </a>
+
+                            </div>
+
                         </div>
                     </div>
 
