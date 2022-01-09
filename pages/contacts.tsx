@@ -1,6 +1,7 @@
 import MainLayout from "../components/MainLayout";
 import styles from '../styles/Contacts.module.css'
 import Image from "next/image";
+import Form from "../components/Form";
 
 
 const Contacts = () => {
@@ -55,32 +56,10 @@ const Contacts = () => {
 
                         </div>
                     </div>
-
-                    <div className={styles.message}>
-                        <div className={styles.inputInfo}>
-                            <input className={styles.nameSend} placeholder={"your name"}
-                                   type="text"
-                                   name="user"
-                            />
-
-                            <input className={styles.mailSend} placeholder={"your mail"}
-                                   name="email"
-                                   id="email"
-                                   type="email"
-                            />
-                        </div>
-                        <textarea className={styles.textarea} placeholder={"your message"}
-                                  id="message"
-                                  name="message"
-                        />
-                        <div className={styles.btSend}>
-                            <button className={styles.btnSend} type="submit"
-                            >
-                                <a className={styles.btnSubmit}>send message</a>
-                            </button>
-                        </div>
-                    </div>
+                        <Form/>
                 </div>
+
+
             </div>
 
         </MainLayout>

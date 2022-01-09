@@ -27,7 +27,7 @@
     min-width: 600px;
     display: flex;
     justify-content: center;
-    align-items: center;
+    /*align-items: center;*/
     flex-direction: column;
     margin: 2em;
     /*border: 2px solid white;*/
@@ -47,21 +47,18 @@
 
 }
 
-.inputInfo {
-    display: flex;
-    justify-content: center;
-}
+
 
 .nameSend, .mailSend {
     min-width: 200px;
-    /*margin: 10px 5px 0 0;*/
+    margin: 10px 5px 0 5px;
     border-radius: 20px;
     /*border: 2px solid black;*/
     background: #f5c87a !important;
     font-size: 1rem;
     font-family: 'Poppins', sans-serif;
-    padding: 0.5em;
-    text-align: center;
+    padding: 0 0.4em;
+    /*text-align: center;*/
 }
 
 
@@ -106,4 +103,8 @@
     background-color: #ffc107;
     padding: 0.3em;
     margin: 0.4em 0.4em;
+}
+.inputInfo {
+    display: flex;
+    flex-direction: column;
 }
