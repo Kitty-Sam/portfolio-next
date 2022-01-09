@@ -16,10 +16,10 @@ const MainLayout = ({children, title, keywords = "portfolio"}) => {
                 {children}
             </main>
             <nav className={styles.navbar}>
-                <button onClick={()=>{Router.push(Routes.HOME)}} className={styles.img}><Image src='/./../public/homes.png' alt={'home'} width='10px' height='10px'/></button>
-                <button onClick={()=>{Router.push(Routes.ABOUT)}} className={styles.img}><Image src='/./../public/humans.png' alt={'about'} width='10px' height='10px'/></button>
-                <button onClick={()=>{Router.push(Routes.PORTFOLIO)}} className={styles.img}><Image src='/./../public/bag.png' alt={'portfolio'} width='10px' height='10px'/></button>
-                <button onClick={()=>{Router.push(Routes.CONTACTS)}} className={styles.img}><Image src='/./../public/message.png' alt={'contacts'} width='10px' height='10px'/></button>
+                <button onClick={()=>{Router.push(Routes.HOME)}} className={styles.img}><Image src='/homes.png' alt={'home'} width='10px' height='10px'/></button>
+                <button onClick={()=>{Router.push(Routes.ABOUT)}} className={styles.img}><Image src='/humans.png' alt={'about'} width='10px' height='10px'/></button>
+                <button onClick={()=>{Router.push(Routes.PORTFOLIO)}} className={styles.img}><Image src='/bag.png' alt={'portfolio'} width='10px' height='10px'/></button>
+                <button onClick={()=>{Router.push(Routes.CONTACTS)}} className={styles.img}><Image src='/message.png' alt={'contacts'} width='10px' height='10px'/></button>
             </nav>
 
 

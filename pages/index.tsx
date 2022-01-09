@@ -19,7 +19,7 @@ const Index = () => {
          <div className={styles.mainContent}>
              <div className={styles.avatarWrapper}>
                <div className={styles.avatar}>
-                   <Image src='/../public/avatar.jpg'  width='252px' height='448px' alt='avatar'/> </div>
+                   <Image src='/avatar.jpg'  width='252px' height='448px' alt='avatar'/> </div>
              </div>
              <div className={styles.text}>
                  <span>-I'm Kate Samuta.</span>

@@ -23,9 +23,10 @@ const Contacts = () => {
                         <div className={styles.mail}>
                             <h3>mail me</h3>
 
-                            <div className={styles.logoMail}><Image className={styles.mailImg}
-                                                                    src='/./../public/list.png' alt={'mail'}
-                                                                    width='25px' height='25px'/>
+                            <div className={styles.logoMail}>
+                                <div className={styles.mailImg}><Image
+                                    src='/list.png' alt={'mail'}
+                                    width='25px' height='25px'/></div>
                                 samutic40@gmail.com
                             </div>
 
@@ -33,9 +34,12 @@ const Contacts = () => {
 
                         <div className={styles.phone}>
                             <h3>call me</h3>
-                                <div className={styles.logoPhone}><Image className={styles.phoneImg}
-                                            src='/./../public/phone.png' alt={'phone'}
-                                            width='25px' height='25px'/>+37529 261 07 29</div>
+                            <div className={styles.logoPhone}>
+                                <div className={styles.phoneImg}><Image
+                                    src='/phone.png' alt={'phone'}
+                                    width='25px' height='25px'/></div>
+                                +37529 261 07 29
+                            </div>
 
                         </div>
                     </div>

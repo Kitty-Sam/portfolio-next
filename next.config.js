@@ -3,3 +3,7 @@ module.exports = {
         disableStaticImages: true
     }
 }
+
+/*
+const withImages = require('next-images')
+module.exports = withImages()*/

@@ -35,8 +35,9 @@
 }
 
 .text, .logoMail, .logoPhone {
-    font-size: 0.9em
-    /*font-style: italic;*/
+    font-size: 0.9em;
+    display: flex;
+
 }
 
 .phone h3, .mail h3, .socialNetwork h3 {
@@ -87,7 +88,10 @@
     color: white;
 }
 
-.mailImg, .phoneImg {
+.phoneImg, .mailImg  {
     border-radius: 50%;
     background-color: #ffc107;
+    padding: 0.3em;
+    margin-right: 0.4em;
+    /*border: 2px solid red;*/
 }
