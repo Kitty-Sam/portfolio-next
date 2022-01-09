@@ -22,7 +22,6 @@ const Form = () => {
             }, function(error) {
                 console.log('FAILED...', error);
             });
-
     };
 
     return (
