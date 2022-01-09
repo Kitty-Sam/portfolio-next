@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import styles from "../styles/Contacts.module.css";
-import emailjs  from '@emailjs/browser';
+import emailjs from 'emailjs-com';
 
 const Form = () => {
     const [name, setName] = useState('');
@@ -23,7 +23,6 @@ const Form = () => {
                 console.log('FAILED...', error);
             });
     };
-
     return (
         <div className={styles.message}>
             <form onSubmit={handleSubmit}>
